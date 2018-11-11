@@ -1,0 +1,14 @@
+index:
+  credentials: [show_situation_r]
+
+new:
+  credentials: [edit_situation_r]
+
+edit:
+  credentials: [edit_situation_r]
+
+delete:
+  credentials: [edit_situation_r]
+
+show:
+  credentials: [show_situation_r]

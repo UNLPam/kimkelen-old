@@ -1,0 +1,56 @@
+may 12 15:50:02 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:50:34 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:50:36 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:50:37 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:50:38 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:50:39 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:55:12 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:55:13 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 12 15:55:14 symfony [err] {InvalidArgumentException} Unable to parse file "/opt/lampp/htdocs/kimkelen/apps/backend/config/menu.yml": Indentation problem at line 20 ( occupations:)
+may 16 00:17:41 symfony [err] {sfException} Call to undefined method BaseSituation_R::canBeDeleted
+may 16 00:18:14 symfony [err] {sfException} Call to undefined method BaseSituation_R::canBeDeleted
+may 16 00:18:16 symfony [err] {sfException} Call to undefined method BaseSituation_R::canBeDeleted
+may 16 00:18:17 symfony [err] {sfException} Call to undefined method BaseSituation_R::canBeDeleted
+may 16 00:34:31 symfony [err] {sfException} Call to undefined method BaseSituation_R::canBeDeleted
+may 16 00:34:33 symfony [err] {sfException} Call to undefined method BaseSituation_R::canBeDeleted
+jun 20 17:46:13 symfony [err] {RuntimeException} Class "Situation_R" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+jun 20 17:58:45 symfony [err] {sfException} Call to undefined method BaseSituation_R::getPersonFullName
+jun 20 21:15:42 symfony [err] {PropelException} Unable to open PDO connection [wrapped: SQLSTATE[HY000] [2002] No existe el archivo o el directorio]
+jun 21 00:10:05 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kimkelen`.`course_subject_teacher`, CONSTRAINT `course_subject_teacher_FK_3` FOREIGN KEY (`situation_r_id`) REFERENCES `situation_r` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+jun 21 00:12:24 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kimkelen`.`course_subject_teacher`, CONSTRAINT `course_subject_teacher_FK_3` FOREIGN KEY (`situation_r_id`) REFERENCES `situation_r` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+jun 21 00:14:58 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("course_subject_1_situation_r").
+jun 21 00:15:00 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("course_subject_1_situation_r").
+jun 21 00:15:01 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("course_subject_1_situation_r").
+jun 21 00:34:38 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kimkelen`.`course_subject_teacher`, CONSTRAINT `course_subject_teacher_FK_3` FOREIGN KEY (`situation_r_id`) REFERENCES `situation_r` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+jun 21 00:36:50 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kimkelen`.`course_subject_teacher`, CONSTRAINT `course_subject_teacher_FK_3` FOREIGN KEY (`situation_r_id`) REFERENCES `situation_r` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+jun 21 00:43:49 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kimkelen`.`course_subject_teacher`, CONSTRAINT `course_subject_teacher_FK_3` FOREIGN KEY (`situation_r_id`) REFERENCES `situation_r` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+jun 21 00:44:02 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kimkelen`.`course_subject_teacher`, CONSTRAINT `course_subject_teacher_FK_3` FOREIGN KEY (`situation_r_id`) REFERENCES `situation_r` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+jun 21 00:49:33 symfony [err] {sfException} Call to undefined method BaseTeacher::getSituationRName
+jun 21 00:50:49 symfony [err] {sfException} Call to undefined method BaseCourse::getSituationR
+jun 21 00:50:57 symfony [err] {sfException} Call to undefined method BaseCourse::getSituationRId
+jun 21 00:54:00 symfony [err] {sfException} Call to undefined method BaseCourse::getSituationR
+jun 21 00:54:21 symfony [err] {sfException} Call to undefined method BaseCourse::getSituation_R
+jun 21 00:54:22 symfony [err] {sfException} Call to undefined method BaseCourse::getSituation_R
+jun 21 01:02:26 symfony [err] {sfGuardSecurePlugin} Login failed for user=admin ip=::1
+jul 02 03:14:45 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 02 03:16:23 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 02 03:16:43 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 11 03:15:08 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 11 03:17:11 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 12 00:52:19 symfony [err] {sfException} Call to undefined method BaseCourseSubject::getDateFrom
+jul 12 02:53:16 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 12 02:53:21 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 12 03:06:29 symfony [err] {sfException} Call to undefined method BaseCourse::getSituationR
+jul 12 03:06:34 symfony [err] {sfException} Call to undefined method BaseCourse::getSituationR
+jul 12 03:13:56 symfony [err] {sfException} Call to undefined method BaseCourse::getCourseSubjectTeacher
+jul 12 03:14:03 symfony [err] {sfException} Call to undefined method BaseCourse::getCourseSubjectTeacher
+jul 12 03:14:15 symfony [err] {sfException} Call to undefined method BaseCourse::getCourseSubjectsTeachers
+jul 12 03:14:16 symfony [err] {sfException} Call to undefined method BaseCourse::getCourseSubjectsTeachers
+jul 30 06:02:54 symfony [err] {sfException} Call to undefined method BaseCourseSubjectTeacher::getDate_From
+jul 30 06:22:33 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+jul 30 06:24:01 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").
+ago 23 21:14:17 symfony [err] {InvalidArgumentException} sfWidgetFormDate does not support the following option: 'year_range'.
+ago 23 21:14:27 symfony [err] {InvalidArgumentException} sfWidgetFormDate does not support the following option: 'year_range'.
+ago 23 21:29:43 symfony [err] {InvalidArgumentException} Widget "person-address" does not exist.
+ago 23 21:33:10 symfony [err] {InvalidArgumentException} Widget "person-address" does not exist.
+oct 12 07:18:57 symfony [err] {InvalidArgumentException} Unable to set the label on an unexistant widget ("division_title_ids").

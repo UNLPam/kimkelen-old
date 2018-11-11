@@ -1,0 +1,47 @@
+generator:
+  class: sfPropelRevisitedGenerator
+  param:
+    model_class:           Situation_R
+    theme:                 extended
+    non_verbose_templates: true
+    with_show:             true
+    singular:              ~
+    plural:                ~
+    route_prefix:          situation_r
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Listado de Situaciones de Revista
+        batch_actions:      []
+        display: [name]
+        object_actions:
+          _edit:
+            credentials: [edit_situation_r]
+          _delete:
+            credentials: [edit_situation_r]
+        actions:
+          _new:
+            label: Nueva Situación de Revista
+            credentials: [show_situation_r]
+      filter:  
+        class: false
+      form:    ~
+      edit:
+        title: Editar Situación de Revista
+        actions:
+          _list:
+            label: Volver al listado de Situaciones de Revista
+          _save_and_list:
+            label: Guardar ocupación
+      new:
+        title: Nueva Situación de Revista
+        actions:
+          _list:
+            label: Volver al listado de Situaciones de Revista
+          _save_and_list:
+            label: Guardar Situación de Revista
+          _save_and_add:
+            label: Guardar y agregar otra Situación de Revista

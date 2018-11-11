@@ -1,0 +1,5 @@
+# Sqlfile -> Database map
+lib.model.schema.sql=propel
+plugins.sfGuardSecurePlugin.lib.model.schema.sql=propel
+plugins.pmModuleEnablerPlugin.lib.model.schema.sql=propel
+plugins.ncPropelChangeLogBehaviorPlugin.lib.model.schema.sql=propel

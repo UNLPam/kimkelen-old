@@ -1,0 +1,2 @@
+nc_flavor:
+  flavors: { root_dir: flavors, current: demo }
